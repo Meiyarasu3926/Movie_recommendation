@@ -48,7 +48,7 @@ def recommend(movie):
         
 	return movie_lst, movie_poster
 	
-if st.button("recommend"):
+if st.button("View Suggestions"):
 	name, poster = recommend(input_box)
 	
 	col1, col2 = st.columns(2)
